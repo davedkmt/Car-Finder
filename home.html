@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Friend-Finder</title>
 
 	<!--CSS & JS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="home.css" type="text/css">
 
 	<!-- Font Awesome Glyphicons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<style>
+		.jumbotron {
+			opacity: 0.7;
+		}
 
+		body {
+			background-image: url("http://findmotivationtoday.com/wp-content/uploads/2016/04/friendship.jpg");
+			background-repeat: no-repeat;
+		}
+	</style>
 </head>
+
 <body>
 
 	<div class="container">
@@ -20,24 +32,23 @@
 		<div class="jumbotron">
 			<h1 class="">Friend Finder</h1>
 			<hr>
-			<h2 class="">Answer a few basic questions.</h2>
-			<h2 class="">Then find the friend with the greatest compatibility!</h2>
+			<h2>Answer a few basic questions...</h2>
+			<h2>to find the friend with the greatest compatibility!</h2>
 			<br>
 
-			<div class="">
-				<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
+			<div>
+				<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Find a Freind</h4></button></a>
+				<hr>
+				<p><a href="/api/answer">API Friends List</a> | <a href="https://github.com/davedkmt/Friend-Finder">GitHub Repo</a></p>
 			</div>
 
 		</div>
 
-	    <footer class="footer">
-	      <div class="container">
-		        <p><a href="/api/answer">API Friends List</a> | <a href="https://github.com/davedkmt/Friend-Finder">GitHub Repo</a></p>
-	      </div>
-	    </footer>
+
 
 	</div>
 
 
 </body>
+
 </html>
